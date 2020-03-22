@@ -18,7 +18,7 @@ Feature: Is it Friday yet?
    | wed       | Nope    |
    | Thursday  | Nope    |
    | thu       | Nope    |
-   | Friday    | Yep     |
-   | fri       | Yep     |
+   | Friday    | TGIF    |
+   | fri       | TGIF    |
    | Saturday  | Nope    |
    | sat       | Nope    |
