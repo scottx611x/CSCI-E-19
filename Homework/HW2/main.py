@@ -16,4 +16,4 @@ class DayOfWeek:
         return day
 
     def is_it_this_day_yet(self, this_day) -> str:
-        return "TGIF" if self.current_day == self._sanitize_day(this_day) else "Nope"
+        return "Yep" if self.current_day == self._sanitize_day(this_day) else "Nope"
