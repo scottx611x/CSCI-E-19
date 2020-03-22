@@ -9,23 +9,16 @@ Feature: Is it Friday yet?
   Examples: All Weekdays
    | day       | message |
    | Sunday    | Nope    |
-   | sunday    | Nope    |
    | sun       | Nope    |
    | Monday    | Nope    |
-   | monday    | Nope    |
    | mon       | Nope    |
    | Tuesday   | Nope    |
-   | tuesday   | Nope    |
    | tue       | Nope    |
    | Wednesday | Nope    |
-   | wednesday | Nope    |
    | wed       | Nope    |
    | Thursday  | Nope    |
-   | thursday  | Nope    |
    | thu       | Nope    |
    | Friday    | Yep     |
-   | friday    | Yep     |
    | fri       | Yep     |
    | Saturday  | Nope    |
-   | saturday  | Nope    |
    | sat       | Nope    |
