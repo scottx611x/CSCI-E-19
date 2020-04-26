@@ -2,7 +2,7 @@ import ast
 
 from behave_classy import step_impl_base
 import app
-from utils import MessageConstructor
+import utils
 
 
 class StepBase(step_impl_base()):
@@ -70,7 +70,7 @@ class MessageConstructorSteps(StepBase):
 
     @StepBase.when('MessageConstructor is initialized with said message')
     def message_constructor_is_initialized_with_said_message(self):
-        self.message_constructor = MessageConstructor(self.message)
+        self.message_constructor = utils.MessageConstructor(self.message)
 
     @StepBase.then('the resulting message attribute should be: {message_dict}')
     def the_resulting_message_attribute_should_be(self, message_dict):
