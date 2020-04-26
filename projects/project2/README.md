@@ -6,7 +6,7 @@ A simple Flask app with Behave tests for: static routes, dynamic routes, and a b
    - [docker](https://docs.docker.com/install/)
 
 ### Running [`Flask`](https://flask.palletsprojects.com/):
-   - `docker build -t p2 ./projects/project2`
+   - `docker build -t p2 .`
    - `docker run -it -p 5555:5000 p2`
    - Navigate to http://localhost:5555/
 
